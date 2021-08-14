@@ -16,22 +16,22 @@
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_ORIGIN as string;
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'strapi';
-export const BRAND_NAME = 'Strapi';
-export const SITE_NAME_MULTILINE = ['Strapi', 'Conf'];
-export const SITE_NAME = 'Strapi Conf';
+export const TWITTER_USER_NAME = 'IngSisUnimag';
+export const BRAND_NAME = 'Cinsis';
+export const SITE_NAME_MULTILINE = ['Cinsis', '2021'];
+export const SITE_NAME = 'Cinsis 2021';
 export const SITE_TITLE = `The first ${BRAND_NAME} Global User Conference`;
 export const SITE_DESCRIPTION =
   'An interactive online experience by the community, free for everyone.';
-export const DATE = 'April 22, 2021';
-export const SHORT_DATE = 'Apr 22 - 9:00am PST';
-export const FULL_DATE = 'Apr 22nd 9am Pacific Time (GMT-7)';
+export const DATE = 'Octubre 28, 2021';
+export const SHORT_DATE = 'Oct 28 - 8:00am EST';
+export const FULL_DATE = 'Oct 28nd 8am Pacific Time (GMT-5)';
 export const COOKIE = 'user-id';
 export const EDITO = {
   homepage: {
-    metaTitle: 'Strapi Conf - Home',
+    metaTitle: 'Cinsis 2021 - Home',
     metaDescription:
-      'A 1 day conference taking place on April 22nd, 2021 from 8 am to 3 pm PST for the Strapi Community to learn, contribute, and collaborate on the future of the leading open source Headless CMS.'
+      '3 días de Conferencias Internacionales de Innovación en Ingeniería de Sistemas que se desarrollan los días 28, 29 y 30 de octubre.'
   },
   jobs: {
     title: 'Career Fair',
@@ -79,7 +79,7 @@ export const EDITO = {
       'A 1 day conference taking place on April 22nd, 2021 from 8 am to 3 pm PST for the Strapi Community to learn, contribute, and collaborate on the future of the leading open source Headless CMS.'
   },
   default: {
-    title: 'Strapi Conf',
+    title: 'Cinsis 2021',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     metaTitle: 'StrapiConf - user conference for the Strapi community',

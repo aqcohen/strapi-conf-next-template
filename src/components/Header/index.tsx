@@ -35,7 +35,7 @@ export default function Header({ navigation }: Props) {
     <header className={cn(styles.header)}>
       <div className={styles.wrapper}>
         <div className={styles.headerLogos}>
-          <Link className={styles.logo} aria-label="Get back to Strapi Conf homepage" href="/">
+          <Link className={styles.logo} aria-label="Get back to Cinsis Conf homepage" href="/">
             <IconConf />
           </Link>
           {navigation && <MobileMenu key={router.asPath} navigation={navigation} />}

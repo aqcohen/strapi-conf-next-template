@@ -32,10 +32,10 @@ export default function Hero() {
       <div className={styles.imageWrapper}>
         <Image
           loading="eager"
-          width={227}
-          height={228}
-          src="/logo-conf.png"
-          alt="Strapi Conference logo"
+          width={550}
+          height={250}
+          src="/logo-cinsis.svg"
+          alt="Cinsis 2021 logo"
         />
       </div>
 
@@ -47,7 +47,7 @@ export default function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <p>{ctx?.eventDate?.standard ?? DATE}</p>
+        <p>OCTUBRE 28, 29 Y 30</p>
         <div className={styles.descriptionSeparator} />
         <p>
           <strong>Online</strong>

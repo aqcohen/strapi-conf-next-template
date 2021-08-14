@@ -44,7 +44,7 @@ export default function TicketShare({ username, ticketNumber, name, usernameFrom
         url: `${SITE_URL}/tickets/${username}`
       }
     : {
-        title: 'Ticket Demo - Virtual Event Starter Kit',
+        title: 'Cinsis 2021',
         description: SITE_DESCRIPTION,
         image: `/api/ticket-images/${usernameFromParams}`,
         url: `${SITE_URL}/tickets/${usernameFromParams}`
